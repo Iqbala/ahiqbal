@@ -16,7 +16,7 @@ baseurl: #
 discus_identifier: ahiqbal
 ga_analytics: UA-111552021-1
 local_fonts: true # Change to true if you wish to use local fonts
-rss_enabled: true # Change to false if not
+rss_enabled: false # Change to false if not
 scrollappear_enabled: true # Change to false to disable
 social:
   dribbble: # Add your Dribbble handle

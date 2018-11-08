@@ -1,0 +1,20 @@
+// =============================================================================
+// About
+// =============================================================================
+
+.about {
+  padding: 25px 0;
+  h1 {
+    margin: 25px 0 15px;
+  }
+}
+
+a {
+      color: $header-link-color;
+      text-decoration: none;
+    }
+    
+  a:hover{
+  fill: $header-link-color-hover;
+        text-decoration: underline;
+  }

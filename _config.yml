@@ -11,7 +11,7 @@ url: https://ahiqbal.com # add your site url (format: https://example.com)
 about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
 resume_enabled: false
 blog_enabled: true
-contact_enabled: true
+projects_enabled: true
 baseurl: #
 discus_identifier: ahiqbal
 ga_analytics: UA-111552021-1

@@ -1,20 +1,18 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Ali H. Iqbal</title>
+    <description></description>
+    <link>https://ahiqbal.com</link>
+    <atom:link href="https://ahiqbal.com/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Introduction post</title>
+        <description>Welcome to my blog!</description>
+        <pubDate>Thu, 18 Oct 2018 00:00:00 -0700</pubDate>
+        <link>https://ahiqbal.com/posts/intro</link>
+        <guid isPermaLink="true">https://ahiqbal.com/posts/intro</guid>
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
